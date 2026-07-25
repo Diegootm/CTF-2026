@@ -1,6 +1,6 @@
 
 
-**Área:** Cripto **Dificultad:** Fácil **Plataforma:** picoCTF 2025 (vía CyLab Academy) **Link del reto o Nombre:** Mod26 **Resuelto por:** Xavi **Fecha:** 23/07 **Tiempo que tardé:** ~15 min
+**Área:** Cripto **Dificultad:** Fácil **Plataforma:** picoCTF 2025 (vía CyLab Academy) **Link del reto o Nombre:** StegoRSA **Resuelto por:** Xavi **Fecha:** 23/07 **Tiempo que tardé:** ~15 min
 
 ---
 ## ¿Qué pista/detalle me hizo saber por dónde ir?
