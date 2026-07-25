@@ -32,12 +32,14 @@ with open('digits_recovered.jpg', 'wb') as f:
     f.write(data)
 ```
 
-Flag [completar]
+## Flag 
 
-¿Qué aprendí / qué usaría de nuevo?
+picoCTF{h1dd3n_1n_th3_b1n4ry_2607862b}
+
+## ¿Qué aprendí / qué usaría de nuevo?
 
 que cuando `file` marca un archivo como "ASCII text" compuesto solo de '0'/'1', conviene probar primero la hipótesis más simple (bits → bytes → puede ser un archivo real) antes de asumir que es una imagen bitmap; y que reconocer firmas de archivo (FF D8/FF D9 para JPEG) en los bytes decodificados es la forma más rápida de confirmar el formato real
 
-¿Me trabé en algo? ¿Cómo lo destrabé?
+## ¿Me trabé en algo? ¿Cómo lo destrabé?
 
 sí, al principio asumí que era una imagen (por el nombre "digits" y la pista de "1 y 0") y perdí tiempo generando bitmaps con distintas dimensiones que salían como ruido/patrón diagonal sin sentido. Me destrabé al notar que el total de bits era divisible exacto por 8 y al reconocer las firmas FF D8 / FF D9 de JPEG en los extremos del archivo agrupado en bytes
