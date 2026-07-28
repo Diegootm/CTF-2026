@@ -39,4 +39,6 @@ En retos de OSINT con imágenes de animales/personas "famosas", conviene fijarse
 
 ---
 
-	
+-16.495625736290823, -68.13353382356598
+cidsi{85429083c4c82fec0927ca4cbe5f254d}
+citc{c6fd3226e7bbb400f0d05242536405e1}
