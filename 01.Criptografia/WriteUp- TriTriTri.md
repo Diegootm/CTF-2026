@@ -27,7 +27,7 @@ FELIXMARDSTBCGHJKNOPQUVWYZ (la contraseña )
 
 ## Flag
 
-citc{dc4726805b1d4dbd7447e1520612c563}
+cidsi{dc4726805b1d4dbd7447e1520612c563}
 
 ## ¿Qué aprendí / qué usaría de nuevo?
 
