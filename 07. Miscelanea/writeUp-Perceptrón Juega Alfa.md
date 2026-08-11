@@ -1,5 +1,3 @@
-# Writeup: [Perceptrón Juega Alfa]
-
 **Área:** Habilidades generales **Dificultad:** Fácil  **Plataforma:** CyLab  **Link del reto o Nombre:** Perceptrón Juega Alfa     
 **Resuelto por:** Axel **Fecha:** No me acuerdo lo estoy subiendo hoy reecien **Tiempo que tardé:** 15min 
 
