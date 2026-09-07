@@ -1,0 +1,9 @@
+umssctf{backup_flag_publica_falsa}
+umssctf{la_licencia_no_estaba_en_strings}
+
+usabilidad_y_experiencia_de_usuario
+desarollo_de_aplicaciones_nativas_para_android
+desarollo_de_aplicaciones_multiplataformas_para_ios_y_android
+backend_para_aplicaciones_móviles
+umssctf{978-84-283-6267-2_ediciones_paraninfo_s.a.}
+umssctf{9788428362672_paraninfo}

@@ -14,15 +14,15 @@ Competencia: **30 de septiembre de 2026** · Equipo: **3 personas** (Diego, Axel
 
 ### Fase 1 — Cobertura de las 7 áreas (6 – 13 sep)
 
-| Fecha  | Día | Área(s)                             | Ej. Individual (c/u) | Ej. Grupal           | Dificultad  | Retos concretos                                                                                                   |
-| ------ | --- | ----------------------------------- | -------------------- | -------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
-| 7 sep  | Lun | Criptografía                        | 2                    | 1                    | Fácil       | picoCTF: `Mod 26`, `substitution0`, `rail-fence`, `interencdec`, `Vigenere`                                       |
-| 8 sep  | Mar | Hacking Web                         | 2                    | 1                    | Fácil       | picoCTF: `Insp3ct0r`, `Cookies`, `GET aHEAD`, `Includes`, `where are the robots`                                  |
-| 9 sep  | Mié | Reversing                           | 2                    | 1                    | Fácil       | picoCTF: `GDB Baby Step 1-4`, `vault-door-1`, `Transformation`, `Safe Opener`                                     |
-| 10 sep | Jue | Forense                             | 2                    | 1                    | Fácil       | picoCTF: `information`, `Packets Primer`, `Scan Surprise`, `Verify`, `CanYouSee`                                  |
-| 11 sep | Vie | Exploiting                          | 2                    | 1                    | Fácil       | picoCTF: `buffer overflow 0`, `buffer overflow 1`, `format string 0`, `clutter-overflow`                          |
-| 12 sep | Sáb | Esteganografía + Misceláneo         | 1 por área           | 1                    | Fácil       | picoCTF stego: `St3g0`, `Matryoshka doll`, `Blast from the past`. Misc: `Nice netcat`, `Codebook`, `PW Crack 1-3` |
-| 13 sep | Dom | **Simulacro #2** (4 h, 10:00–14:00) | —                    | 1 tanda mixta        | Fácil/Medio | CITC `/challenges` + picoCTF. Retro de 30 min al final                                                            |
+| Fecha  | Día | Área(s)                             | Ej. Individual (c/u) | Ej. Grupal    | Dificultad  | Retos concretos                                                                                                   |
+| ------ | --- | ----------------------------------- | -------------------- | ------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| 7 sep  | Lun | Criptografía                        | 2                    | 1             | Fácil       | picoCTF: `Mod 26`, `substitution0`, `rail-fence`, `interencdec`, `Vigenere`                                       |
+| 8 sep  | Mar | Hacking Web                         | 2                    | 1             | Fácil       | picoCTF: `Insp3ct0r`, `Cookies`, `GET aHEAD`, `Includes`, `where are the robots`                                  |
+| 9 sep  | Mié | Reversing                           | 2                    | 1             | Fácil       | picoCTF: `GDB Baby Step 1-4`, `vault-door-1`, `Transformation`, `Safe Opener`                                     |
+| 10 sep | Jue | Forense                             | 2                    | 1             | Fácil       | picoCTF: `information`, `Packets Primer`, `Scan Surprise`, `Verify`, `CanYouSee`                                  |
+| 11 sep | Vie | Exploiting                          | 2                    | 1             | Fácil       | picoCTF: `buffer overflow 0`, `buffer overflow 1`, `format string 0`, `clutter-overflow`                          |
+| 12 sep | Sáb | Esteganografía + Misceláneo         | 1 por área           | 1             | Fácil       | picoCTF stego: `St3g0`, `Matryoshka doll`, `Blast from the past`. Misc: `Nice netcat`, `Codebook`, `PW Crack 1-3` |
+| 13 sep | Dom | **Simulacro #2** (4 h, 10:00–14:00) | —                    | 1 tanda mixta | Fácil/Medio | CITC `/challenges` + picoCTF. Retro de 30 min al final                                                            |
 
 ### Fase 2 — Ciclo 1, dificultad Media (14 – 20 sep)
 

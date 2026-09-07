@@ -25,14 +25,14 @@
 
 ### Web
 
-|Herramienta|Para qué sirve|Prioridad|Enlace / acceso|
-|---|---|---|---|
-|Burp Suite (Community)|Interceptar y modificar peticiones HTTP, repetir requests, fuzzing básico|🔴|https://portswigger.net/burp/communitydownload|
-|Navegador + DevTools|Inspeccionar cookies, JS, requests, almacenamiento local|🔴|Ya viene en Chrome/Firefox (F12)|
-|curl|Probar endpoints rápido desde la terminal sin interfaz gráfica|🔴|Preinstalado en Linux|
-|sqlmap|Automatizar detección y explotación de inyección SQL|🟡|https://sqlmap.org/|
-|ffuf|Fuerza bruta de directorios, subdominios y parámetros ocultos|🟡|https://github.com/ffuf/ffuf|
-|gobuster|Alternativa a ffuf para fuerza bruta de rutas/subdominios|🟢|https://github.com/OJ/gobuster|
+| Herramienta            | Para qué sirve                                                            | Prioridad | Enlace / acceso                                |
+| ---------------------- | ------------------------------------------------------------------------- | --------- | ---------------------------------------------- |
+| Burp Suite (Community) | Interceptar y modificar peticiones HTTP, repetir requests, fuzzing básico | 🔴        | https://portswigger.net/burp/communitydownload |
+| Navegador + DevTools   | Inspeccionar cookies, JS, requests, almacenamiento local                  | 🔴        | Ya viene en Chrome/Firefox (F12)               |
+| curl                   | Probar endpoints rápido desde la terminal sin interfaz gráfica            | 🔴        | Preinstalado en Linux                          |
+| sqlmap                 | Automatizar detección y explotación de inyección SQL                      | 🟡        | https://sqlmap.org/                            |
+| ffuf                   | Fuerza bruta de directorios, subdominios y parámetros ocultos             | 🟡        | https://github.com/ffuf/ffuf                   |
+| gobuster               | Alternativa a ffuf para fuerza bruta de rutas/subdominios                 | 🟢        | https://github.com/OJ/gobuster                 |
 
 ### OSINT
 
@@ -47,52 +47,52 @@
 
 ### Reversing
 
-|Herramienta|Para qué sirve|Prioridad|Enlace / acceso|
-|---|---|---|---|
-|Ghidra|Desensamblador/decompilador gratuito de NSA, el estándar para reversing|🔴|https://ghidra-sre.org/|
-|file / strings|Identificar tipo de archivo y extraer texto legible de un binario|🔴|Preinstalado en Linux|
-|gdb + pwndbg o GEF|Depurador de binarios en Linux con extensiones pensadas para CTF|🟡|pwndbg: https://github.com/pwndbg/pwndbg — GEF: https://github.com/hugsy/gef|
-|Cutter|Interfaz gráfica de radare2, alternativa más liviana a Ghidra|🟢|https://cutter.re/|
+| Herramienta        | Para qué sirve                                                          | Prioridad | Enlace / acceso                                                              |
+| ------------------ | ----------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------- |
+| Ghidra             | Desensamblador/decompilador gratuito de NSA, el estándar para reversing | 🔴        | https://ghidra-sre.org/                                                      |
+| file / strings     | Identificar tipo de archivo y extraer texto legible de un binario       | 🔴        | Preinstalado en Linux                                                        |
+| gdb + pwndbg o GEF | Depurador de binarios en Linux con extensiones pensadas para CTF        | 🟡        | pwndbg: https://github.com/pwndbg/pwndbg — GEF: https://github.com/hugsy/gef |
+| Cutter             | Interfaz gráfica de radare2, alternativa más liviana a Ghidra           | 🟢        | https://cutter.re/                                                           |
 
 ### Esteganografía
 
-|Herramienta|Para qué sirve|Prioridad|Enlace / acceso|
-|---|---|---|---|
-|exiftool|Revisar metadatos, siempre el primer paso|🔴|https://exiftool.org/|
-|StegOnline|Analizar imágenes capa por capa, canales de color, LSB, sin instalar nada|🔴|https://stegonline.georgeom.net/upload|
-|zsteg|Detectar datos ocultos en imágenes PNG/BMP automáticamente|🟡|https://github.com/zed-0xff/zsteg|
-|steghide|Extraer/ocultar datos en JPG/BMP/WAV/AU (con o sin contraseña)|🟡|http://steghide.sourceforge.net/|
-|binwalk|También sirve aquí para encontrar archivos ocultos dentro de imágenes|🟡|https://github.com/ReFirmLabs/binwalk|
+| Herramienta | Para qué sirve                                                            | Prioridad | Enlace / acceso                        |
+| ----------- | ------------------------------------------------------------------------- | --------- | -------------------------------------- |
+| exiftool    | Revisar metadatos, siempre el primer paso                                 | 🔴        | https://exiftool.org/                  |
+| StegOnline  | Analizar imágenes capa por capa, canales de color, LSB, sin instalar nada | 🔴        | https://stegonline.georgeom.net/upload |
+| zsteg       | Detectar datos ocultos en imágenes PNG/BMP automáticamente                | 🟡        | https://github.com/zed-0xff/zsteg      |
+| steghide    | Extraer/ocultar datos en JPG/BMP/WAV/AU (con o sin contraseña)            | 🟡        | http://steghide.sourceforge.net/       |
+| binwalk     | También sirve aquí para encontrar archivos ocultos dentro de imágenes     | 🟡        | https://github.com/ReFirmLabs/binwalk  |
 
 ### Miscelánea (transversal)
 
-|Herramienta|Para qué sirve|Prioridad|Enlace / acceso|
-|---|---|---|---|
-|CyberChef|También cubre gran parte de "misc" (encodings raros, compresión, etc.)|🔴|https://gchq.github.io/CyberChef/|
-|Python 3|Para casi cualquier reto que requiera automatizar algo|🔴|https://www.python.org/|
-|7-Zip / unrar / unzip|Descomprimir formatos poco comunes o con contraseña|🔴|https://www.7-zip.org/ (Linux: `apt install p7zip-full unrar unzip`)|
+| Herramienta           | Para qué sirve                                                         | Prioridad | Enlace / acceso                                                      |
+| --------------------- | ---------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- |
+| CyberChef             | También cubre gran parte de "misc" (encodings raros, compresión, etc.) | 🔴        | https://gchq.github.io/CyberChef/                                    |
+| Python 3              | Para casi cualquier reto que requiera automatizar algo                 | 🔴        | https://www.python.org/                                              |
+| 7-Zip / unrar / unzip | Descomprimir formatos poco comunes o con contraseña                    | 🔴        | https://www.7-zip.org/ (Linux: `apt install p7zip-full unrar unzip`) |
 
 ---
 
 ## 2. Herramientas secundarias (menos usadas, pero tenerlas "por si acaso")
 
-|Herramienta|Área|Cuándo se usa|Prioridad|Enlace / acceso|
-|---|---|---|---|---|
-|Nmap|Web/Misc|Si algún reto expone un servicio de red que hay que descubrir/escanear|🟢|https://nmap.org/download.html|
-|Netcat (nc)|Web/Reversing/Misc|Conectarse a shells remotas o servicios tipo `nc host puerto` (muy común en pwn/misc)|🟡|Preinstalado en Linux|
-|pwntools (Python)|Reversing/Pwn|Automatizar exploits de binarios|🟢|https://github.com/Gallopsled/pwntools|
-|Radare2|Reversing|Alternativa a Ghidra en terminal, más rápida para binarios pequeños|🟢|https://github.com/radareorg/radare2|
-|Foremost / PhotoRec|Forense|Recuperar archivos borrados o "carving" de archivos dentro de imágenes de disco|🟢|PhotoRec: https://www.cgsecurity.org/wiki/TestDisk_Download|
-|Bulk Extractor|Forense|Extraer emails, URLs, tarjetas, etc. de una imagen forense masivamente|🟢|https://github.com/simsong/bulk_extractor|
-|NetworkMiner|Forense|Alternativa a Wireshark orientada a reconstrucción de objetos/artefactos|🟢|https://www.netresec.com/?page=NetworkMiner|
-|jwt.io / jwt_tool|Web|Analizar y falsificar tokens JWT mal configurados|🟡|https://jwt.io/ y https://github.com/ticarpi/jwt_tool|
-|Postman|Web|Alternativa a Burp/curl para probar APIs de forma más visual|🟢|https://www.postman.com/downloads/|
-|Aircrack-ng|Misc/Forense|Si aparece algo de captura wifi (.cap/.pcap de 802.11)|🟢|https://www.aircrack-ng.org/|
-|Maltego (community)|OSINT|Visualizar relaciones entre entidades (dominios, personas, IPs)|🟢|https://www.maltego.com/downloads/|
-|theHarvester|OSINT|Recolectar correos, subdominios y nombres desde fuentes públicas|🟢|https://github.com/laramies/theHarvester|
-|zbarimg|Stego/Misc|Decodificar códigos QR ocultos o corruptos|🟢|Paquete `zbar-tools` (`apt install zbar-tools`)|
-|Audacity|Stego|Analizar espectrograma de archivos de audio (mensajes ocultos en sonido)|🟡|https://www.audacityteam.org/download/|
-|Aperi'Solve|Stego|Versión web que corre varias herramientas de stego (binwalk, zsteg, exiftool) a la vez sobre una imagen|🟡|https://www.aperisolve.com/|
+| Herramienta         | Área               | Cuándo se usa                                                                                           | Prioridad | Enlace / acceso                                             |
+| ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------- |
+| Nmap                | Web/Misc           | Si algún reto expone un servicio de red que hay que descubrir/escanear                                  | 🟢        | https://nmap.org/download.html                              |
+| Netcat (nc)         | Web/Reversing/Misc | Conectarse a shells remotas o servicios tipo `nc host puerto` (muy común en pwn/misc)                   | 🟡        | Preinstalado en Linux                                       |
+| pwntools (Python)   | Reversing/Pwn      | Automatizar exploits de binarios                                                                        | 🟢        | https://github.com/Gallopsled/pwntools                      |
+| Radare2             | Reversing          | Alternativa a Ghidra en terminal, más rápida para binarios pequeños                                     | 🟢        | https://github.com/radareorg/radare2                        |
+| Foremost / PhotoRec | Forense            | Recuperar archivos borrados o "carving" de archivos dentro de imágenes de disco                         | 🟢        | PhotoRec: https://www.cgsecurity.org/wiki/TestDisk_Download |
+| Bulk Extractor      | Forense            | Extraer emails, URLs, tarjetas, etc. de una imagen forense masivamente                                  | 🟢        | https://github.com/simsong/bulk_extractor                   |
+| NetworkMiner        | Forense            | Alternativa a Wireshark orientada a reconstrucción de objetos/artefactos                                | 🟢        | https://www.netresec.com/?page=NetworkMiner                 |
+| jwt.io / jwt_tool   | Web                | Analizar y falsificar tokens JWT mal configurados                                                       | 🟡        | https://jwt.io/ y https://github.com/ticarpi/jwt_tool       |
+| Postman             | Web                | Alternativa a Burp/curl para probar APIs de forma más visual                                            | 🟢        | https://www.postman.com/downloads/                          |
+| Aircrack-ng         | Misc/Forense       | Si aparece algo de captura wifi (.cap/.pcap de 802.11)                                                  | 🟢        | https://www.aircrack-ng.org/                                |
+| Maltego (community) | OSINT              | Visualizar relaciones entre entidades (dominios, personas, IPs)                                         | 🟢        | https://www.maltego.com/downloads/                          |
+| theHarvester        | OSINT              | Recolectar correos, subdominios y nombres desde fuentes públicas                                        | 🟢        | https://github.com/laramies/theHarvester                    |
+| zbarimg             | Stego/Misc         | Decodificar códigos QR ocultos o corruptos                                                              | 🟢        | Paquete `zbar-tools` (`apt install zbar-tools`)             |
+| Audacity            | Stego              | Analizar espectrograma de archivos de audio (mensajes ocultos en sonido)                                | 🟡        | https://www.audacityteam.org/download/                      |
+| Aperi'Solve         | Stego              | Versión web que corre varias herramientas de stego (binwalk, zsteg, exiftool) a la vez sobre una imagen | 🟡        | https://www.aperisolve.com/                                 |
 
 ---
 
