@@ -1,5 +1,5 @@
 
-**Área:** Explotation web **Dificultad:** Fácil **Plataforma:** picoCTF 2025 (vía CyLab Academy) **Link del reto o Nombre:** Insp3ct0r **Resuelto por:** Xavi **Fecha:** 27/07 **Tiempo que tardé:** ~15 min
+**Área:** Explotation web **Dificultad:** Fácil **Plataforma:** picoCTF 2025 (vía CyLab Academy) **Link del reto o Nombre:** Insp3ct0r **Resuelto por:** Xavi **Fecha:** 8/09 **Tiempo que tardé:** ~15 min
 
 ---
 ## ¿Qué pista/detalle me hizo saber por dónde ir?
