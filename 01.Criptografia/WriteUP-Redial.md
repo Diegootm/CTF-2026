@@ -43,7 +43,9 @@ DECIMAL   HEXADECIMAL   DESCRIPTION
 - Los `Compatible Brands` (`isom`, `iso2`, `avc1`, `mp41`) son marcas del contenedor ISO Base Media, o sea MP4. Significa que **el original era un MP4 y lo convirtieron a MP3**. Los metadatos se arrastraron en la conversión.
 - Nada de esto es la flag. Son rastros del proceso de creación del reto.
 
-> **Falso positivo a evitar:** al pasar el archivo por CyberChef aparece la cadena `469;=ACEHJMPRTWZ]_adgilnptvx{}`. Parece codificada pero **no lo es**: es la tabla de contenido del header Xing/Info del MP3, un índice de posiciones para que el reproductor pueda saltar dentro del archivo. Los bytes van estrictamente en aumento, esa es la pista de que es estructura y no datos. Todo MP3 con VBR lo tiene.
+> **Falso positivo a evitar:** al pasar el archivo por CyberChef aparece la cadena `469;=ACEHJMPRTWZ]_adgilnptvx{}`. Parece codificada pero **no lo es**: es la tabla de contenido del header Xing/Info del MP3, un índice de posiciones para que el reproductor pueda saltar dentro del archivo. Los bytes van estrictamente en aumento, esa es la pista de que es estructura y no datos. Todo MP3 con VBR lo tiene.exiftool redial.mp3
+binwalk redial.mp3
+strings redial.mp3 | less
 
 ---
 
