@@ -26,15 +26,15 @@ Competencia: **30 de septiembre de 2026** · Equipo: **3 personas** (Diego, Axel
 
 ### Fase 2 — Ciclo 1, dificultad Media (14 – 20 sep)
 
-|Fecha|Día|Área(s)|Ej. Individual (c/u)|Ej. Grupal|Dificultad|Retos concretos|
-|---|---|---|---|---|---|---|
-|14 sep|Lun|Criptografía + Reversing|1 por área|1|Medio|Cripto: `credstuff`, `Very Smooth`, `hashcrack`. Rev: `vault-door-3`, `keygenme-py`, `bit-o-asm-1/2`|
-|15 sep|Mar|Hacking Web|2|1|Medio|picoCTF: `Local Authority`, `Forbidden Paths`, `IntroToBurp`, `Unminify`, `WebDecode`|
-|16 sep|Mié|Forense + Esteganografía|1 por área|1|Medio|Forense: `Sleuthkit Apprentice`, `Trickster`, `PcapPoisoning`. Stego: `tunn3l v1s10n`, `Secret of the Polyglot`|
-|17 sep|Jue|Exploiting|2|1|Medio|picoCTF: `buffer overflow 2`, `format string 1`, `VNE`, `flag leak`|
-|18 sep|Vie|Misceláneo + Web|1 por área|1|Medio|Misc: `Serpentine`, `Big Zip`, `Binary Search`, `binhexa`. Web: `SOAP`, `n0s4n1ty 1`|
-|19 sep|Sáb|**Repaso: las 2 áreas más flojas del equipo** (según simulacros)|2 del área|1|Medio|Lo que corresponda + CITC `/challenges` de esa área|
-|20 sep|Dom|**Simulacro #3** (5 h, 10:00–15:00)|—|1 tanda mixta|Medio|CITC + picoCTF. Una sola persona envía flags. Retro de 45 min|
+| Fecha  | Día | Área(s)                                                          | Ej. Individual (c/u) | Ej. Grupal    | Dificultad | Retos concretos                                                                                                 |
+| ------ | --- | ---------------------------------------------------------------- | -------------------- | ------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
+| 14 sep | Lun | Criptografía + Reversing                                         | 1 por área           | 1             | Medio      | Cripto: `credstuff`, `Very Smooth`, `hashcrack`. Rev: `vault-door-3`, `keygenme-py`, `bit-o-asm-1/2`            |
+| 15 sep | Mar | Hacking Web                                                      | 2                    | 1             | Medio      | picoCTF: `Local Authority`, `Forbidden Paths`, `IntroToBurp`, `Unminify`, `WebDecode`                           |
+| 16 sep | Mié | Forense + Esteganografía                                         | 1 por área           | 1             | Medio      | Forense: `Sleuthkit Apprentice`, `Trickster`, `PcapPoisoning`. Stego: `tunn3l v1s10n`, `Secret of the Polyglot` |
+| 17 sep | Jue | Exploiting                                                       | 2                    | 1             | Medio      | picoCTF: `buffer overflow 2`, `format string 1`, `VNE`, `flag leak`                                             |
+| 18 sep | Vie | Misceláneo + Web                                                 | 1 por área           | 1             | Medio      | Misc: `Serpentine`, `Big Zip`, `Binary Search`, `binhexa`. Web: `SOAP`, `n0s4n1ty 1`                            |
+| 19 sep | Sáb | **Repaso: las 2 áreas más flojas del equipo** (según simulacros) | 2 del área           | 1             | Medio      | Lo que corresponda + CITC `/challenges` de esa área                                                             |
+| 20 sep | Dom | **Simulacro #3** (5 h, 10:00–15:00)                              | —                    | 1 tanda mixta | Medio      | CITC + picoCTF. Una sola persona envía flags. Retro de 45 min                                                   |
 
 ### Fase 3 — Ciclo 2, dificultad Alta (21 – 27 sep)
 
