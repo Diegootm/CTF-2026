@@ -4,15 +4,19 @@
 
 ## ¿Qué pista/detalle me hizo saber por dónde ir?
 
-
+en el enunciado hablaba del protocolo dns
 ## Herramienta(s) que usé
 
-
-
+- wireshark
+- dcode
 ## Pasos (solo lo esencial, tipo lista)
 
-
-
+- entre a wireshark con el pcapng que nos dio
+- filtre por dns
+- dentro del primero me aparecio esto
+  dentro de un query este archivo: RE5TX1R1bm4zbDFuZ19FeGZpbHRyNHRpMG5fRDN0M2N0M.exfil-data.net que me sono raro y en el otro dns este tambien  2Q.exfil-data.net: type A, class IN
+- entonces uni lo siguiente : RE5TX1R1bm4zbDFuZ19FeGZpbHRyNHRpMG5fRDN0M2N0M2Q 
+- lo meti a dcode y me detecto un base64 y al decodificar me salio esto: DNS_Tunn3l1ng_Exfiltr4ti0n_D3t3ct3d entonces lo lleve a md5 y lo entregue 
 ## Comando(s) o payload clave (si aplica)
 
 
