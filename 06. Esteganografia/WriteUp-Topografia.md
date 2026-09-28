@@ -1,5 +1,5 @@
 
-**Área:** Stego **Dificultad:** facil **Plataforma:**  CIDSI **Link del reto o Nombre:** Paisaje **Resuelto por:** Xavi **Fecha:**27/09/2026  **Tiempo que tardé:** 15 min
+**Área:** Stego **Dificultad:** Medio **Plataforma:**  CIDSI **Link del reto o Nombre:** Topografia **Resuelto por:** Xavi **Fecha:**27/09/2026  **Tiempo que tardé:** 15 min
 
 ---
 ## ¿Qué pista/detalle me hizo saber por dónde ir?
@@ -38,4 +38,4 @@ Que siempre que nos den alguna palabra calve o alguna palabra es par despstar o 
 
 ## ¿Me trabé en algo? ¿Cómo lo destrabé?
 
-solo le di la vuelta a la palabra clave y halle la flag 
+Todo tranquilo ya que es nrmal steghide en imagenes jpg 

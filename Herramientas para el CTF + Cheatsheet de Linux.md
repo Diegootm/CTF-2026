@@ -63,6 +63,7 @@
 | zsteg       | Detectar datos ocultos en imágenes PNG/BMP automáticamente                | 🟡        | https://github.com/zed-0xff/zsteg      |
 | steghide    | Extraer/ocultar datos en JPG/BMP/WAV/AU (con o sin contraseña)            | 🟡        | http://steghide.sourceforge.net/       |
 | binwalk     | También sirve aquí para encontrar archivos ocultos dentro de imágenes     | 🟡        | https://github.com/ReFirmLabs/binwalk  |
+|             |                                                                           |           |                                        |
 
 ### Miscelánea (transversal)
 
