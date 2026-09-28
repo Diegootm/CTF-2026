@@ -43,6 +43,8 @@ xdg-open flag_reparada.jpg
 
 `citc{m4g1c_numb3rs_meg4_r3d}`
 
+`citc{972a1317957abfc63de6a2bc9062adb3}`
+
 ## ¿Qué aprendí / qué usaría de nuevo?
 
 Cuando un archivo binario tiene bytes corruptos justo al inicio, lo primero es comparar contra la **firma mágica** (magic number) estándar del tipo de archivo que se espera — muchos formatos (JPEG, PNG, ZIP, etc.) empiezan siempre con los mismos bytes fijos, así que si el resto del archivo se ve estructuralmente correcto, no hace falta adivinar nada: se sobreescribe directamente con el valor conocido. La fuerza bruta (probar las 16 combinaciones de un nibble) solo hubiera sido necesaria si el valor correcto NO fuera un estándar fijo y conocido de antemano.
